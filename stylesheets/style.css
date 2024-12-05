@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* transition:
+        all 0.6s linear 0.1s; */
+    /* Smooth transition for all properties */
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.1s;
+}
+
+.btn:hover {
+    padding: 30px 60px;
+    /* Increase padding for a larger button effect */
+    background-color: #0056b3;
+    /* Change background color */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    /* Add a deeper shadow */
+    transform: scale(1.05);
+    /* Optional: slight scale effect */
+    font-size: 4em;
+}
